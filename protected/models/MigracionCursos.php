@@ -42,6 +42,7 @@ class MigracionCursos extends CActiveRecord
 			array('documento_identidad', 'numerical', 'integerOnly'=>true),
 			array('nombre_curso, nombre_docente', 'length', 'max'=>100),
 			array('correo_institucional', 'length', 'max'=>200),
+                        array('correo_institucional', 'email'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, nombre_curso, nombre_docente, documento_identidad, correo_institucional', 'safe', 'on'=>'search'),

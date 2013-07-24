@@ -40,6 +40,7 @@ class CreacionUsuario extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('nro_identificacion, nombres, correo_electronico', 'required'),
+                        array('correo_electronico', 'email'),
 			array('nro_identificacion', 'numerical', 'integerOnly'=>true),
 			array('nombres, perfil_usuario', 'length', 'max'=>100),
 			array('correo_electronico', 'length', 'max'=>200),
