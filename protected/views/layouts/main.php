@@ -33,8 +33,8 @@
 			'items'=>array(
 				array('label'=>'Inicio', 'url'=>array('/site/index')),
                                 array('label'=>'Solicitud Cursos Moddle', 'url'=>array('/DatosCurso/admin')),
-                                array('label'=>'Solicitud Creacion Moddle', 'url'=>array('/CreacionUsuario/admin')),
-                                array('label'=>'Solicitud de Migracion de Curso', 'url'=>array('/MigracionCursos/admin')),
+                                array('label'=>'Solicitud Creacion Moddle', 'url'=>array('/CreacionUsuario/create')),
+                                array('label'=>'Solicitud de Migracion de Curso', 'url'=>array('/MigracionCursos/create')),
 				//array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				//array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
