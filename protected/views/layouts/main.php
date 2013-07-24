@@ -32,7 +32,7 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Inicio', 'url'=>array('/site/index')),
-                                array('label'=>'Solicitud Cursos Moddle', 'url'=>array('/DatosCurso/admin')),
+                                array('label'=>'Solicitud Cursos Moddle', 'url'=>array('/DatosCurso/create')),
                                 array('label'=>'Solicitud Creacion Moddle', 'url'=>array('/CreacionUsuario/create')),
                                 array('label'=>'Solicitud de Migracion de Curso', 'url'=>array('/MigracionCursos/create')),
 				//array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
